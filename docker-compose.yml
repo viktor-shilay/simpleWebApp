@@ -1,0 +1,23 @@
+version: '3.7'
+
+services:
+
+  godel-test-postgres:
+    hostname: godel-test-postgres
+    container_name: godel-test-postgres
+    image: viktorshilay/godel-test-postgres
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=employeedb
+    ports:
+      - "5432:5432"
+
+  godel-test-app:
+    hostname: godel-test-app
+    container_name: godel-test-app
+    image: viktorshilay/godel-test-app
+    restart: on-failure
+    depends_on:
+      - godel-test-postgres
+    ports:
+      - "8080:8080"
