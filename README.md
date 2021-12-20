@@ -7,11 +7,11 @@ This is a simple Restful CRUD API for employee management.
 + Run script.sql
 + Clone this project
 + Run the application
-+ Open localhost:8080/simplewebapp/swagger-ui.html in your browser or use Postman to test api
++ Open http://localhost:8080/simplewebapp/swagger-ui.html in your browser or use Postman to test api
 
 ## How to use (2 method)
 + Run docker-compose.yml in Docker
-+ Open localhost:8080/simplewebapp/swagger-ui.html in your browser or use Postman to test api
++ Open htpp://localhost:8080/simplewebapp/swagger-ui.html in your browser or use Postman to test api
 
 ## REST APIs :
 * GET : /api/v1/employees
