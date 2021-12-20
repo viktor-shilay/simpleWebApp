@@ -11,7 +11,7 @@ This is a simple Restful CRUD API for employee management.
 
 ## How to use (2 method)
 + Run docker-compose.yml in Docker
-+ Open htpp://localhost:8080/simplewebapp/swagger-ui.html in your browser or use Postman to test api
++ Open http://localhost:8080/simplewebapp/swagger-ui.html in your browser or use Postman to test api
 
 ## REST APIs :
 * GET : /api/v1/employees
